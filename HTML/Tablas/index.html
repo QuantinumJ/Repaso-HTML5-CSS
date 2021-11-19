@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Planets data</h1>
+    <table>
+        <caption> Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+        <colgroup>
+            <col span="2">
+            <col style="border: 2px solid black;">
+            <col span="9">
+        </colgroup>
+        <thead>
+            <tr>
+                <td colspan="2"></<td>
+                    <th scope="col">Name</th>
+                    <th scope="col"> Mass (10<sup>24</sup>kg)</th>
+                    <th scope="col">Diameter (km)</th>
+                    <th scope="col">Density (kg/m<sup>3</sup>)</th>
+                    <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+                    <th scope="col">Length of day (hours)</th>
+                    <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+                    <th scope="col">Mean temperature (°C)</th>
+                    <th scope="col">Number of moons</th>
+                    <th scope="col">Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th colspan="2" rowspan="4" scope="rowgroup">Terrestrial planets</th>
+                <th scope="row">Mercury</th>
+                <td>0.330</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td>Closest to the Sun</td>
+            </tr>
+            <tr>
+                <th scope="row">Venus</th>
+                <td>12,104</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Earth</th>
+                <td>12,104</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td>Our world</td>
+            </tr>
+            <tr>
+                <th scope="row">Mars</th>
+                <td>12,104</td>
+                <td>4,879</td>
+                <td>5427</td>
+                <td>3.7</td>
+                <td>4222.6</td>
+                <td>57.9</td>
+                <td>167</td>
+                <td>0</td>
+                <td>The red planet</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Jovian planets</th>
+                <th scope="rowgroup" rowspan="2">Gas giants</th>
+                <th scope="row">Jupiter</th>
+                <td>1898</td>
+                <td>142,984 </td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td>The largest planet</td>
+            </tr>
+            <tr>
+                <th scope="row">Saturn</th>
+                <td>1898</td>
+                <td>142,984 </td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Ice giants</th>
+                <th scope="row">Uranus</th>
+                <td>1898</td>
+                <td>142,984 </td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">Neptune</th>
+                <td>1898</td>
+                <td>142,984 </td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th colspan="2" scope="rowgroup">Dwarf planets</th>
+                <th scope="row">Pluto</th>
+                <td>1898</td>
+                <td>142,984 </td>
+                <td>1326</td>
+                <td>23.1</td>
+                <td>9.9</td>
+                <td>778.6</td>
+                <td>-110</td>
+                <td>67</td>
+                <td>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
+
+            </tr>
+
+        </tbody>
+
+
+
+
+
+    </table>
+
+</body>
+
+</html>
+
+<!-- Las etiquetas a utilizar  table,td (celda),tr(fila),th(encabezado),thead,tbody,tfoot(atributos a organizar colspan y rowspan)   Proporcionar un estilo común a las columnas col y colgroup
+***puedes dar un título a tu tabla colocándolo dentro de un elemento <caption> -->
+
+<!-- -->
