@@ -1,0 +1,61 @@
+h1 {
+    color: rgb(15, 58, 13);
+}
+
+p {
+    color: chocolate;
+}
+
+li {
+    list-style-type: square;
+}
+
+
+/* Combinador descendente */
+
+li em {
+    color: rgb(153, 71, 51);
+}
+
+
+/*  combinador hermano adyacente */
+
+h1+p {
+    font-size: 200%;
+    color: rgb(73, 207, 20);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(245, 16, 176);
+}
+
+a:visited {
+    color: green;
+}
+
+
+/* Selectores simples que se aplican en la etiqueta elegida y afectan todo el documento snx: ( elementos{ atributo+valor }) */
+
+
+/*  Se puede añadir el atributo class a la etiqueta para tener mas control a la hora de aplicar el estilo snx: ( .nombreClass { atr+valor})
+   o si se quiere modificar solo etiqueta con concreta de la clase snx:  ( etiqueta.class { atr+valor} ) */
+
+
+/* Dar formato según la ubicación en un documento Combinador descendente: Para seleccionar solo un elemnto <em> que esté anidado dentro de un elemento <li>,
+ snx: ( elementoPadre space elemento hijo { atr: valor} )
+*/
+
+
+/* Dar formato según el estado 
+El último tipo de estilo que veremos en este tutorial es la capacidad de dar formato a los elementos
+ en función de su estado. Un ejemplo sencillo es el estilo de los enlaces.
+  Cuando damos formato a un enlace, necesitamos seleccionar el elemento <a> (anclaje). 
+  Tiene diferentes estados dependiendo de si se ha visitado o no, se pasa por encima,
+  o se presiona con el teclado o se hace clic (se activa).
+   Puedes usar CSS para dar formato a estos diferentes estados. 
+   El CSS que encontrarás a continuación presenta en color rosa los enlaces que no se han visitado y 
+   en verde los que sí. snx:( etiqueta:atr{ atr:valor} )*/
