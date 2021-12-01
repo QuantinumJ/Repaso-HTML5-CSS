@@ -80,10 +80,14 @@
 <li><article>  (article)encuadra un bloque de contenido que tiene sentido por sí mismo aparte del resto de la página (por ejemplo una entrada en un blog).</li>
 <li><section> (section) es parecido al elemento (article) <article>, pero se usa más para agrupar cada parte de la página que, por su funcionalidad, constituye una sección en sí misma (por ejemplo un minimapa o un conjunto de titulares y resúmenes). Se considera una buena práctica comenzar cada una de estas secciones con un título de encabezado (heading); observa que podemos subdividir artículos (<article>) en distintas secciones (<section>), o también secciones en distintos artículos, dependiendo del contexto.</li>
 <li><aside> (aside) incluye contenido que no está directamente relacionado con el contenido principal, pero que puede aportar información adicional relacionada indirectamente con él (resúmenes, biografías del autor, enlaces relacionados, etc.).</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+
+<li><h2>Control de la herencia</h2></li>
+<li>inherit
+    Establece que el valor de la propiedad que se aplica a un elemento determinado sea exactamente igual al del elemento padre. En la práctica, esto "activa la herencia".</li>
+<li>initial
+    Establece que el valor de la propiedad que se aplica a un elemento seleccionado tenga el mismo valor que esté establecido para esa propiedad en la hoja de estilo por defecto del navegador</li>
+<li>unset (en-US)
+    Restablece la propiedad a su valor natural, lo que significa que si la propiedad se hereda de forma natural, actúa como inherit, y en caso contrario como initial.</li>
 <li></li>
 <li></li>
 </ul>
