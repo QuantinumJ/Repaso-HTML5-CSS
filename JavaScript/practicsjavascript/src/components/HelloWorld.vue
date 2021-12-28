@@ -58,8 +58,31 @@ console.log(s.repeat(6));
 // se permite utilizar tambien [] de vez de usar charAt
 console.log(s[3]);
 console.log(s[s.length-1])
-
-
+// try {
+//   let n = Number(prompt("Intoduce el numero positivo", " "));
+//   if (n>0){
+//     let a = n;
+//     alert(a +" Correcto");
+//   }else
+//   alert("incorecto");
+// } catch (error) {
+//  alert(error);
+  
+// }
+// Creacion del objetos se puede hacer a traves de la palabra new y atraves de una funcion Object.create();
+let empty = {};
+let point = {x: 0, y: 0 };
+let p2 = {x : point.x, y: point.y+1};
+let book = {
+  "main title": "JavaScript",
+  "sub-title": "The definitive Guide",
+  for: "all audiences",
+  author: {
+    firstname: "David",
+    surname: "Flanagan"
+  }
+};
+console.log(book,empty,p2);
 
 </script>
 
